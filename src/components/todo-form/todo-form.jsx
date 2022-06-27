@@ -10,7 +10,7 @@ export const TodoForm = () => {
 
   const handleAddTodo = () => {
     const newTask = {
-      id: todos[todos.length - 1].id + 1,
+      id: todos.length > 0 ? todos[todos.length - 1].id + 1 : 0,
       label: task,
       checked: false,
     };
