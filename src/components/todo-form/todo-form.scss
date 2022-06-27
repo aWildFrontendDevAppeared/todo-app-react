@@ -1,6 +1,7 @@
 .todo-form {
   display: flex;
   justify-content: center;
+  flex-wrap:wrap;
 
   input {
     padding: 10px 15px;
@@ -27,5 +28,8 @@
     &:hover {
       background: #1474d2;
     }
+  }
+  small {
+    width: 360px;
   }
 }
